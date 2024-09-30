@@ -26,28 +26,27 @@ section_subject_domain_of_jewerly = [*
 
     /* Максимально изучаемый класс объектов — это произведения искусства */
     -> rrel_maximum_studied_object_class:
-        concept_artwork;  /* Произведение искусства как основной класс объектов исследования */
+        concept_ref_jewel;  /* Произведение искусства как основной класс объектов исследования */
 
     /* Немаксимальные классы объектов исследования: художники и стили */
     -> rrel_not_maximum_studied_object_class:
-        concept_artist;  /* Художник как класс объектов исследования, не являющийся максимальным */
-        concept_style;  /* Стиль как немаксимальный класс объектов исследования */
-        concept_gallery;  /* Галерея как немаксимальный класс объектов исследования */
-        concept_artwork;
-        concept_digital_artist;
-        concept_digital_tool;
-        concept_exhibition;
-        concept_gallery;
-        concept_painter;
-        concept_photography;
-        concept_influence_source;
-        concept_museum;
-        concept_restorer;
-        concept_sculptor;
-        concept_sculpture;
-        concept_style;
-        concept_visual_art;
-        concept_visual_artist;
+        concept_jewels_type;  /* Художник как класс объектов исследования, не являющийся максимальным */
+        concept_jewels_culture;  /* Стиль как немаксимальный класс объектов исследования */
+        concept_jewels_economy;  /* Галерея как немаксимальный класс объектов исследования */
+        concept_jewerly_make;
+        concept_jewels_design;
+        concept_jewels_dig;
+        concept_gem_stones;
+        concept_historical_artifacts;
+        concept_religion_symbols;
+        concept_royal_regalia;
+        concept_ref_jewel;
+        concept_precious_metals;
+        concept_price;
+        concept_engraving;
+        concept_synthetic_cultivation;
+        
+        
 
 
 

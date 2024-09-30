@@ -7,5 +7,5 @@ nrel_creation_date
 => nrel_main_idtf:
    [дата создания]
    (* <- lang_ru;; *);
-=> nrel_first_domain: concept_artwork;  /* Первое множество — произведения искусства */
+=> nrel_first_domain: concept_ref_jewel;  /* Первое множество — произведения искусства */
 => nrel_second_domain: concept_creation_date;;  /* Второе множество — даты создания */
