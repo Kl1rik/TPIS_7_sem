@@ -1,0 +1,43 @@
+nrel_design_type
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- asymmetric_relation;
+<- antitransitive_relation;
+
+=> nrel_main_idtf:
+   [тип дизайна]
+   (* <- lang_ru;; *);
+   
+=> nrel_first_domain: concept_ref_jewel;
+=> nrel_second_domain: concept_jewels_design;
+=> nrel_definitional_domain:
+   ...
+   (*
+        <= nrel_combination: {
+            concept_ref_jewel;
+            concept_jewels_design
+        };;
+   *);
+   
+<- rrel_key_sc_element:
+   ...
+   (*
+      => nrel_main_idtf:
+          [Опр. (тип дизайна)]
+          (* <- lang_ru;; *);;
+      <- definition;;
+      <= nrel_sc_text_translation:
+           ...
+           (*
+              -> rrel_example:
+               [тип дизайна- бинарное отношение, связывающее драгоценность и тип ее дизайна,относящийся к определенной эпохе.]
+               (* <- lang_ru;; *);;
+           *);;
+      <= nrel_using_constants: {
+             concept_ref_jewel;
+             concept_jewels_design
+        };;
+  *);;

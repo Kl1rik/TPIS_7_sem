@@ -1,0 +1,33 @@
+concept_royal_regalia
+<- sc_node_class;
+<- class;
+
+=> nrel_main_idtf:
+   [Королевские регалии] (*<- lang_ru;;*);
+
+<- rrel_key_sc_element:
+   ...
+   (*
+      => nrel_main_idtf:
+         [Опр. (Королевские регалии)]
+         (* <- lang_ru;; *);;
+      <- definition;;
+      <= nrel_sc_text_translation:
+         ...
+         (*
+            -> rrel_example:
+               [Королевские регалии — это символы монаршей власти, включающие корону, скипетр и державу, которые используются во время коронаций и других церемоний.]
+               (* <- lang_ru;; *);;
+         *);;
+      <= nrel_using_constants: {
+         concept_visual_art;
+         concept_exhibition;
+         concept_artwork
+      };;
+  *);
+
+=> nrel_inclusion:
+   concept_jewels_culture;;
+
+
+

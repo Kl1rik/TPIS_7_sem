@@ -1,0 +1,15 @@
+aurum
+<- concept_precious_metals;
+=> nrel_main_idtf: 
+   [Золото] (*<- lang_ru;;*);
+
+=> nrel_jewel_type:
+   metal (*<- concept_jewels_type;;*);;
+
+platina
+<- concept_artist;
+=> nrel_main_idtf: 
+   [Платина] (*<- lang_ru;;*);
+
+=> nrel_jewel_type:
+   metal (*<- concept_jewels_type;;*);;

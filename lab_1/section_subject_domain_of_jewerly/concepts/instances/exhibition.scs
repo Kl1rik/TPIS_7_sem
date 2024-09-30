@@ -1,0 +1,10 @@
+modern_art_exhibition
+<- concept_exhibition;
+=> nrel_main_idtf:
+   [Выставка современного искусства] (*<- lang_ru;;*);;
+
+
+impressionism_exhibition
+<- concept_exhibition;
+=> nrel_main_idtf:
+   [Выставка импрессионизма] (*<- lang_ru;;*);;

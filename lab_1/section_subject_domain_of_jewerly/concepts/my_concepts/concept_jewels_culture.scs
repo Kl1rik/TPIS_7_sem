@@ -1,0 +1,15 @@
+concept_jewels_culture
+<- sc_node_class;  /* Определяет, что это класс объектов */
+<- class;  /* Указывает, что это класс */
+=> nrel_main_idtf:
+    [Культурное значение драгоценностей]
+    (* <- lang_ru;; *);
+=> nrel_note:
+    [Культурное значение драгоценностей выражается в различных артефактах и символах.]
+    (* <- lang_ru;; *);
+    
+<= nrel_inclusion:
+    concept_religion_symbols;
+    concept_royal_regalia;
+    concept_historical_artifacts;;
+    

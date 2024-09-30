@@ -1,0 +1,31 @@
+concept_jewels_design
+<- sc_node_class;
+<- class;
+
+=> nrel_main_idtf:
+   [Дизайн украшений] (*<- lang_ru;;*);
+
+<- rrel_key_sc_element:
+   ...
+   (*
+      => nrel_main_idtf:
+         [Опр. (Дизайн украшений)]
+         (* <- lang_ru;; *);;
+      <- definition;;
+      <= nrel_sc_text_translation:
+         ...
+         (*
+            -> rrel_example:
+               [Дизайн украшений — это искусство создания эстетически привлекательных и функциональных предметов из драгоценных металлов и камней.]
+               (* <- lang_ru;; *);;
+         *);;
+      <= nrel_using_constants: {
+         concept_jewels_culture;
+         concept_jewels
+      };;
+  *);
+
+<= nrel_inclusion:
+   concept_visual_artist;
+   concept_sculptor;
+   concept_digital_artist;;

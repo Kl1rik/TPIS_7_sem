@@ -1,0 +1,30 @@
+concept_religion_symbols
+<- sc_node_class;
+<- class;
+
+=> nrel_main_idtf:
+   [Религиозные символы] (*<- lang_ru;;*);
+
+<- rrel_key_sc_element:
+   ...
+   (*
+      => nrel_main_idtf:
+         [Опр. (Религиозные символы)]
+         (* <- lang_ru;; *);;
+      <- definition;;
+      <= nrel_sc_text_translation:
+         ...
+         (*
+            -> rrel_example:
+               [Религиозные символы играют важную роль в различных верованиях, представляя собой визуальные образы, которые помогают людям выражать и понимать духовные концепции.]
+               (* <- lang_ru;; *);;
+         *);;
+      <= nrel_using_constants: {
+         concept_cultural_institution;
+         concept_exhibition;
+         concept_artwork
+      };;
+  *);
+
+=> nrel_inclusion:
+   concept_jewels_culture;;

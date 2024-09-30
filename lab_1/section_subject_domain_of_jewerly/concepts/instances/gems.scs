@@ -1,0 +1,15 @@
+ruby
+<- concept_gem_stones;
+=> nrel_main_idtf: 
+   [Рубин] (*<- lang_ru;;*);
+
+=> nrel_jewel_type:
+   corund (*<- concept_jewels_type;;*);;
+
+emerald
+<- concept_gem_stones;
+=> nrel_main_idtf: 
+   [Изумруд] (*<- lang_ru;;*);
+
+=> nrel_jewel_type:
+   pyrite (*<- concept_jewels_type;;*);;

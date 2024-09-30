@@ -1,0 +1,29 @@
+concept_synthetic_cultivation
+<- sc_node_class;
+<- class;
+
+=> nrel_main_idtf:
+   [Синтетическое выращивание драгоценных камней] (*<- lang_ru;;*);
+
+<- rrel_key_sc_element:
+   ...
+   (*
+      => nrel_main_idtf:
+         [Опр. (Синтетическое выращивание драгоценных камней)]
+         (* <- lang_ru;; *);;
+      <- definition;;
+      <= nrel_sc_text_translation:
+         ...
+         (*
+            -> rrel_example:
+               [Синтетическое выращивание камней — это процесс создания драгоценных и полудрагоценных камней в лабораторных условиях. Эти камни обладают теми же физическими, химическими и оптическими свойствами, что и их природные аналоги. ]
+               (* <- lang_ru;; *);;
+         *);;
+      <= nrel_using_constants: {
+         concept_gem_stones;
+         concept_jewels_dig
+      };;
+  *);
+
+=> nrel_inclusion:
+   concept_jewels_dig;;

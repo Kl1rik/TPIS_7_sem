@@ -1,0 +1,31 @@
+concept_visual_artist
+<- sc_node_class;
+<- class;
+
+=> nrel_main_idtf:
+   [Художник визуального искусства] (*<- lang_ru;;*);
+
+<- rrel_key_sc_element:
+   ...
+   (*
+      => nrel_main_idtf:
+         [Опр. (Художник визуального искусства)]
+         (* <- lang_ru;; *);;
+      <- definition;;
+      <= nrel_sc_text_translation:
+         ...
+         (*
+            -> rrel_example:
+               [Художник визуального искусства — это человек, создающий произведения в таких формах, как живопись, скульптура, фотография и другие визуальные искусства.]
+               (* <- lang_ru;; *);;
+         *);;
+      <= nrel_using_constants: {
+         concept_artist;
+         concept_visual_art
+      };;
+  *);
+
+<= nrel_inclusion:
+   concept_painter;
+   concept_sculptor;
+   concept_photographer;;

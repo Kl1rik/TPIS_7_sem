@@ -1,0 +1,67 @@
+mona_lisa_influence_source
+<- concept_influence_source;
+=> nrel_main_idtf:
+   [Источники вдохновения для Мона Лизы] (*<- lang_ru;;*);
+=> nrel_inclusion:
+   florentine_woman;
+   lisa_gherardini;
+   renaissance_portraits;
+<= nrel_influence:
+   mona_lisa;;
+
+florentine_woman
+<- concept_influence_source;
+=> nrel_main_idtf:
+   [Флорентийская женщина] (*<- lang_ru;;*);
+<= nrel_influence:
+   mona_lisa;
+=> nrel_note:
+   [Флорентийская женщина, возможно, жена торговца шёлком Франческо дель Джокондо — Лиза Герардини, которая, по мнению многих исследователей, послужила моделью для портрета.] (*<- lang_ru;;*);;
+
+renaissance_portraits
+<- concept_influence_source;
+=> nrel_main_idtf:
+   [Портреты эпохи Возрождения] (*<- lang_ru;;*);
+<= nrel_influence:
+   mona_lisa;
+=> nrel_note:
+   [Мона Лиза черпает вдохновение из традиций портретной живописи эпохи Возрождения, которая подчеркивала идеализацию и мягкие черты человеческой фигуры.] (*<- lang_ru;;*);;
+
+
+guernica_influence_source
+<- concept_influence_source;
+=> nrel_main_idtf:
+   [Источники вдохновения для Герники] (*<- lang_ru;;*);
+=> nrel_inclusion:
+   bombing_of_guernica;
+   spanish_civil_war;
+   surrealism;
+<= nrel_influence:
+   guernica;;
+
+bombing_of_guernica
+<- concept_influence_source;
+=> nrel_main_idtf:
+   [Бомбардировка Герники] (*<- lang_ru;;*);
+<= nrel_influence:
+   guernica;
+=> nrel_note:
+   [Бомбардировка Герники во время гражданской войны в Испании в 1937 году, совершённая нацистской авиацией, стала главным источником вдохновения для создания картины Пабло Пикассо.] (*<- lang_ru;;*);;
+
+spanish_civil_war
+<- concept_influence_source;
+=> nrel_main_idtf:
+   [Гражданская война в Испании] (*<- lang_ru;;*);
+<= nrel_influence:
+   guernica;
+=> nrel_note:
+   [Гражданская война в Испании, её разрушительные последствия и хаос стали контекстом для многих работ Пикассо, включая Гернику.] (*<- lang_ru;;*);;
+
+surrealism
+<- concept_influence_source;
+=> nrel_main_idtf:
+   [Сюрреализм] (*<- lang_ru;;*);
+<= nrel_influence:
+   guernica;
+=> nrel_note:
+   [Сюрреалистические мотивы, характерные для Пикассо в этот период, также внесли вклад в создание образов и символов, использованных в Гернике.] (*<- lang_ru;;*);;

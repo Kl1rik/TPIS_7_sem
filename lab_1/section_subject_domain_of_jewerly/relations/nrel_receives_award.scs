@@ -1,0 +1,43 @@
+nrel_receives_award
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- asymmetric_relation;
+<- antitransitive_relation;
+
+=> nrel_main_idtf:
+   [получает награду]
+   (* <- lang_ru;; *);
+   
+=> nrel_first_domain: concept_artwork;
+=> nrel_second_domain: concept_award;
+=> nrel_definitional_domain:
+   ...
+   (*
+        <= nrel_combination: {
+            concept_artwork;
+            concept_award
+        };;
+   *);
+   
+<- rrel_key_sc_element:
+   ...
+   (*
+      => nrel_main_idtf:
+          [Опр. (получает награду)]
+          (* <- lang_ru;; *);;
+      <- definition;;
+      <= nrel_sc_text_translation:
+           ...
+           (*
+              -> rrel_example:
+               [Произведение искусства может получать награды на различных конкурсах и фестивалях искусства.]
+               (* <- lang_ru;; *);;
+           *);;
+      <= nrel_using_constants: {
+             concept_artwork;
+             concept_award
+        };;
+  *);;

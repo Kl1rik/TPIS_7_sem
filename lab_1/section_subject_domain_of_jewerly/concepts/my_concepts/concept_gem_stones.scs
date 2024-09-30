@@ -1,0 +1,27 @@
+concept_gem_stones
+<- sc_node_class;
+<- class;
+
+=> nrel_main_idtf:
+   [Награда] (*<- lang_ru;;*);
+
+<- rrel_key_sc_element:
+   ...
+   (*
+      => nrel_main_idtf:
+         [Опр. (Драгоценные камни)]
+         (* <- lang_ru;; *);;
+      <- definition;;
+      <= nrel_sc_text_translation:
+         ...
+         (*
+            -> rrel_example:
+               [Драгоценные камни — это редкие минералы и органические породы, которые обладают высокой ценностью благодаря своей красоте, долговечности и редкости.]
+               (* <- lang_ru;; *);;
+         *);;
+      
+  *);
+
+=> nrel_inclusion:
+   concept_jewels_type;;
+   

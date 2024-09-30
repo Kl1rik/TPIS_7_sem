@@ -1,0 +1,35 @@
+concept_visual_art
+<- sc_node_class;
+<- class;
+
+=> nrel_main_idtf:
+   [Визуальное искусство] (*<- lang_ru;;*);
+
+<- rrel_key_sc_element:
+   ...
+   (*
+      => nrel_main_idtf:
+         [Опр. (Визуальное искусство)]
+         (* <- lang_ru;; *);;
+      <- definition;;
+      <= nrel_sc_text_translation:
+         ...
+         (*
+            -> rrel_example:
+               [Визуальное искусство — это форма искусства, выражающаяся в визуальных образах, таких как живопись, скульптура и фотография.]
+               (* <- lang_ru;; *);;
+         *);;
+      <= nrel_using_constants: {
+         concept_artwork;
+         concept_painter;
+         concept_sculptor
+      };;
+  *);
+
+<= nrel_inclusion:
+   concept_painting;
+   concept_sculpture;
+   concept_photography;
+
+=> nrel_inclusion:
+    concept_artwork;;

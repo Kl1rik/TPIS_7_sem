@@ -1,0 +1,120 @@
+/* 
+  Определение предметной области искусства.
+  Здесь описаны основные классы объектов и их отношения.
+  Максимальный класс объектов исследования — произведение искусства, 
+  а классы вторичных объектов включают художников, галереи и стили.
+*/
+
+section_subject_domain_of_jewerly
+=> nrel_main_idtf:
+    [Раздел. Предметная область драгоценностей]  /* Название раздела на русском языке */
+    (* <- lang_ru;; *);
+<- atomic_section;;  /* Указывает на атомарный характер секции */
+
+/* 
+  Определение структуры для предметной области искусства, включая классы объектов 
+  и исследуемые отношения. Эта структура представляет основную семантическую модель 
+  предметной области искусства. 
+*/
+section_subject_domain_of_jewerly = [*
+    subject_domain_of_jewerly  /* Основной узел для предметной области искусства */
+    <- sc_node_struct;  /* Определение как структурного узла */
+    => nrel_main_idtf:
+        [Предметная область драгоценностей]  /* Идентификатор предметной области на русском */
+        (* <- lang_ru;; *);
+    <- subject_domain;  /* Отношение указывает на принадлежность к категории предметных областей */
+
+    /* Максимально изучаемый класс объектов — это произведения искусства */
+    -> rrel_maximum_studied_object_class:
+        concept_artwork;  /* Произведение искусства как основной класс объектов исследования */
+
+    /* Немаксимальные классы объектов исследования: художники и стили */
+    -> rrel_not_maximum_studied_object_class:
+        concept_artist;  /* Художник как класс объектов исследования, не являющийся максимальным */
+        concept_style;  /* Стиль как немаксимальный класс объектов исследования */
+        concept_gallery;  /* Галерея как немаксимальный класс объектов исследования */
+        concept_artwork;
+        concept_digital_artist;
+        concept_digital_tool;
+        concept_exhibition;
+        concept_gallery;
+        concept_painter;
+        concept_photography;
+        concept_influence_source;
+        concept_museum;
+        concept_restorer;
+        concept_sculptor;
+        concept_sculpture;
+        concept_style;
+        concept_visual_art;
+        concept_visual_artist;
+
+
+
+    /* 
+       Исследуемые отношения между объектами искусства, художниками, галереями и стилями. 
+       Отношения связывают объекты между собой через указанные ролевые связи. 
+    */
+    -> rrel_explored_relation:
+        nrel_creation_date;  /* Отношение: дата создания произведения искусства */
+        nrel_style;  /* Отношение: стиль, к которому относится произведение */
+        nrel_influence;  /* Отношение: влияние, оказанное на произведение искусства */
+        nrel_exhibited_in_museum;  /* Отношение: место, где произведение выставлялось */
+        nrel_created_by;  /* Отношение: произведение создано определенным художником */
+        nrel_collected_by;  /* Отношение: произведение собрано определенной галереей */
+        nrel_part_of_exhibition; /* Отношение: произведение является частью выставки */
+        nrel_creation_date;
+        nrel_creates_sculpture;
+        nrel_influence;
+        nrel_part_of_exhibition;
+        nrel_receives_award;
+        nrel_represented_in_collection;
+        nrel_restored_by;
+        nrel_takes_photograph;
+        nrel_uses_digital_tools;;
+
+*];;
+
+/* 
+  Указание ключевых SC-элементов для предметной области искусства:
+  - произведение искусства, художники, стили и галереи, а также основные исследуемые отношения.
+*/
+section_subject_domain_of_art
+-> rrel_key_sc_element:
+concept_artist;  /* Художник как класс объектов исследования, не являющийся максимальным */
+    concept_style;  /* Стиль как немаксимальный класс объектов исследования */
+    concept_gallery;  /* Галерея как немаксимальный класс объектов исследования */
+    concept_artwork;
+    concept_digital_artist;
+    concept_digital_tool;
+    concept_exhibition;
+    concept_gallery;
+    concept_painter;
+    concept_photography;
+    concept_influence_source;
+    concept_museum;
+    concept_restorer;
+    concept_sculptor;
+    concept_sculpture;
+    concept_style;
+    concept_visual_art;
+    concept_visual_artist;
+
+
+    nrel_creation_date;  /* Отношение: дата создания произведения искусства */
+    nrel_style;  /* Отношение: стиль, к которому относится произведение */
+    nrel_influence;  /* Отношение: влияние, оказанное на произведение искусства */
+    nrel_exhibited_at;  /* Отношение: место, где произведение выставлялось */
+    nrel_created_by;  /* Отношение: произведение создано определенным художником */
+    nrel_collected_by;  /* Отношение: произведение собрано определенной галереей */
+    nrel_part_of_exhibition; /* Отношение: произведение является частью выставки */
+    nrel_creation_date;
+    nrel_creates_sculpture;
+    nrel_exhibited_in_museum;
+    nrel_influence;
+    nrel_part_of_exhibition;
+    nrel_receives_award;
+    nrel_represented_in_collection;
+    nrel_restored_by;
+    nrel_takes_photograph;
+    nrel_uses_digital_tools;;

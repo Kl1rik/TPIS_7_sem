@@ -1,0 +1,29 @@
+concept_precious_metals
+<- sc_node_class;
+<- class;
+
+=> nrel_main_idtf:
+   [Скульптура] (*<- lang_ru;;*);
+
+<- rrel_key_sc_element:
+   ...
+   (*
+      => nrel_main_idtf:
+         [Опр. (Драгоценные металлы)]
+         (* <- lang_ru;; *);;
+      <- definition;;
+      <= nrel_sc_text_translation:
+         ...
+         (*
+            -> rrel_example:
+               [Драгоценные металлы — это редкие химические элементы, которые обладают высокой химической стойкостью и практически не подвержены коррозии и окислению.]
+               (* <- lang_ru;; *);;
+         *);;
+      <= nrel_using_constants: {
+         concept_jewels_type
+      };;
+  *);
+
+<= nrel_inclusion:
+   concept_modern_sculpture;
+   concept_classical_sculpture;;

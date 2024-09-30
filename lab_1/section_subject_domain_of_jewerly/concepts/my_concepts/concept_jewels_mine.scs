@@ -1,0 +1,25 @@
+concept_jewels_mine
+<- sc_node_class;
+<- class;
+
+=> nrel_main_idtf:
+   [Добыча драгоценностей в шахтах] (*<- lang_ru;;*);
+
+<- rrel_key_sc_element:
+   ...
+   (*
+      => nrel_main_idtf:
+         [Опр. (Добыча драгоценностей в шахтах)]
+         (* <- lang_ru;; *);;
+      <- definition;;
+      <= nrel_sc_text_translation:
+         ...
+         (*
+            -> rrel_example:
+               [Добыча драгоценных камней в шахтах включает разведку, разработку шахты, добычу, обогащение и очистку с огранкой камней.]
+               (* <- lang_ru;; *);;
+         *);;
+  *);
+
+=> nrel_inclusion:
+   concept_jewels_dig;;

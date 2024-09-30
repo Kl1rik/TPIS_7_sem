@@ -1,0 +1,43 @@
+nrel_uses_digital_tools
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- asymmetric_relation;
+<- antitransitive_relation;
+
+=> nrel_main_idtf:
+   [использует цифровые инструменты]
+   (* <- lang_ru;; *);
+   
+=> nrel_first_domain: concept_digital_artist;
+=> nrel_second_domain: concept_digital_tool;
+=> nrel_definitional_domain:
+   ...
+   (*
+        <= nrel_combination: {
+            concept_digital_artist;
+            concept_digital_tool
+        };;
+   *);
+   
+<- rrel_key_sc_element:
+   ...
+   (*
+      => nrel_main_idtf:
+          [Опр. (использует цифровые инструменты)]
+          (* <- lang_ru;; *);;
+      <- definition;;
+      <= nrel_sc_text_translation:
+           ...
+           (*
+              -> rrel_example:
+               [Использует цифровые инструменты - бинарное отношение, которое связывает цифрового художника с инструментами, которые он использует, например, графическим планшетом или программным обеспечением для 3D моделирования.]
+               (* <- lang_ru;; *);;
+           *);;
+      <= nrel_using_constants: {
+             concept_digital_artist;
+             concept_digital_tool
+        };;
+  *);;

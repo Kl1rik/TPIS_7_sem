@@ -1,0 +1,14 @@
+    nrel_jewel_make
+    <- sc_node_norole_relation;  /* Это неролевое отношение */
+    <- relation;  /* Это отношение */
+    <- binary_relation;  /* Отношение бинарное, связывающее две сущности */
+    <- oriented_relation;  /* Ориентированное отношение (порядок важен) */
+    <- antireflexive_relation;  /* Антирефлексивное отношение: объект не может быть создан самим собой */
+    <- asymmetric_relation;  /* Асимметричное отношение: если A создано B, то B не может быть создано A */
+    <- antitransitive_relation;  /* Антитранзитивное: если A создано B, и B создано C, то A не может быть создано C */
+    => nrel_main_idtf:
+    [тип обработки]
+    (* <- lang_ru;; *);
+    => nrel_first_domain: concept_ref_jewel;  /* Первое множество (домен) – произведения искусства */
+    => nrel_second_domain: concept_jewerly_make;;  /* Второе множество (домен) – художники */
+

@@ -1,0 +1,16 @@
+concept_engraving
+<- sc_node_class;  /* Определяет, что это класс объектов */
+<- class;  /* Указывает, что это класс */
+=> nrel_main_idtf:
+    [Гравировка]
+    (* <- lang_ru;; *);
+=> nrel_note:
+    [Один из способов  изготовления драгоценностей.]
+    (* <- lang_ru;; *);
+    
+=> nrel_inclusion:
+    concept_jewerly_make
+    (* => nrel_main_idtf:
+        [Изготовление драгоценностей]
+        (* <- lang_ru;; *);;
+    *);;

@@ -1,0 +1,43 @@
+nrel_restored_by
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- asymmetric_relation;
+<- antitransitive_relation;
+
+=> nrel_main_idtf:
+   [восстановлено художником]
+   (* <- lang_ru;; *);
+   
+=> nrel_first_domain: concept_artwork;
+=> nrel_second_domain: concept_restorer;
+=> nrel_definitional_domain:
+   ...
+   (*
+        <= nrel_combination: {
+            concept_artwork;
+            concept_restorer
+        };;
+   *);
+   
+<- rrel_key_sc_element:
+   ...
+   (*
+      => nrel_main_idtf:
+          [Опр. (восстановлено художником)]
+          (* <- lang_ru;; *);;
+      <- definition;;
+      <= nrel_sc_text_translation:
+           ...
+           (*
+              -> rrel_example:
+               [Восстановлено художником - бинарное отношение, связывающее произведение искусства и художника-реставратора, который его восстановил.]
+               (* <- lang_ru;; *);;
+           *);;
+      <= nrel_using_constants: {
+             concept_artwork;
+             concept_restorer
+        };;
+  *);;

@@ -1,0 +1,20 @@
+louvre_museum
+<- concept_gallery;
+=> nrel_main_idtf:
+   [Лувр] (*<- lang_ru;;*);
+=> nrel_location:
+   [Париж, Франция] (*<- lang_ru;;*);
+=> nrel_exhibits_artwork:
+   mona_lisa;
+   venus_de_milo (*<- concept_artwork;;*);
+   liberty_leading_the_people (*<- concept_artwork;;*);;
+
+guggenheim_museum
+<- concept_gallery;
+=> nrel_main_idtf:
+   [Музей Гуггенхайма] (*<- lang_ru;;*);
+=> nrel_location:
+   [Нью-Йорк, США] (*<- lang_ru;;*);
+=> nrel_exhibits_artwork:
+   black_lines_by_vassily_kandinsky (*<- concept_artwork;;*);
+   red_amaryllis_by_georgia_okeeffe (*<- concept_artwork;;*);;

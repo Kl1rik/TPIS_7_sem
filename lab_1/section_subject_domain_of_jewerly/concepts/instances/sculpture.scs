@@ -1,0 +1,25 @@
+david
+<- concept_sculpture;
+=> nrel_main_idtf:
+   [Давид] (*<- lang_ru;;*);
+=> nrel_creation_date:
+   [1501] (*<- lang_ru;;*);
+=> nrel_created_by:
+   michelangelo (*<- concept_sculptor;;*);
+=> nrel_exhibited_in_museum:
+   accademia_gallery (*<- concept_museum;;*);
+=> nrel_style:
+   renaissance (*<- concept_style;;*);;
+
+venus_de_milo
+<- concept_sculpture;
+=> nrel_main_idtf:
+   [Венера Милосская] (*<- lang_ru;;*);
+=> nrel_creation_date:
+   [130-100 до н.э.] (*<- lang_ru;;*);
+=> nrel_created_by:
+   unknown_artist;
+=> nrel_exhibited_in_museum:
+   louvre_museum;
+=> nrel_style:
+   classical_greek_art (*<- concept_style;;*);;

@@ -1,0 +1,32 @@
+renaissance
+<- concept_style;
+=> nrel_main_idtf:
+   [Ренессанс] (*<- lang_ru;;*);
+<= nrel_influence:
+   classical_greek_art (*<- concept_visual_art;;*);
+   classical_roman_art (*<- concept_visual_art;;*);
+
+<= nrel_style:
+   david;
+   mona_lisa;
+   the_last_supper;;
+
+cubism
+<- concept_style;
+=> nrel_main_idtf:
+   [Кубизм] (*<- lang_ru;;*);
+<= nrel_influence:
+   post_impressionism (*<- concept_style;;*);
+   african_art (*<- concept_visual_art;;*);
+<= nrel_style:
+   guernica;
+   les_demoiselles_davignon;;
+
+impressionism
+<- concept_style;
+=> nrel_main_idtf:
+   [Импрессионизм] (*<- lang_ru;;*);
+<= nrel_influence:
+   romanticism  (*<- concept_style;;*);
+   realism  (*<- concept_style;;*);;
+
