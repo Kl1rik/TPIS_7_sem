@@ -22,8 +22,6 @@ concept_precious_metals
       <= nrel_using_constants: {
          concept_jewels_type
       };;
-  *);
+  *);;
 
-<= nrel_inclusion:
-   concept_modern_sculpture;
-   concept_classical_sculpture;;
+

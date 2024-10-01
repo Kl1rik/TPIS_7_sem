@@ -1,0 +1,35 @@
+jewel_shop
+<- concept_jewels_economy;
+=> nrel_main_idtf:
+   [Ювелирный магазин] (*<- lang_ru;;*);
+=> nrel_inclusion:
+   earrings;
+   necklace;
+   ruby;
+=> nrel_note:
+   [Один из самых популярных вариантов покупки ювелирных украшений] (*<- lang_ru;;*);;
+
+jewel_auction
+<- concept_jewels_economy;
+=> nrel_main_idtf:
+   [Аукцион ювелирных украшений и драгоценностей] (*<- lang_ru;;*);
+=> nrel_inclusion:
+   earrings;
+   necklace;
+   ruby;
+   emerald;
+   rome_diadema;
+   knight_medals;
+   synt_zirkone;
+=> nrel_note:
+   [Один из способов покупкии продажи уникальных драгоценностей] (*<- lang_ru;;*);;
+
+bank
+<- concept_jewels_economy;
+=> nrel_main_idtf:
+   [Банк] (*<- lang_ru;;*);
+=> nrel_inclusion:
+   aurum;
+   platina;
+=> nrel_note:
+   [Основное место покупки золотых слитков и слитков других ценных металлов] (*<- lang_ru;;*);;

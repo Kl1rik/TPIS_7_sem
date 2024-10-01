@@ -1,0 +1,16 @@
+
+synt_zirkone
+<- concept_synthetic_cultivation;
+=> nrel_main_idtf:
+   [Фианит] (*<- lang_ru;;*);
+=> nrel_moss_solidity:
+   5 (*<- concept_jewels_solidity;;*);;
+
+amethyst
+<- concept_jewels_mine;
+=> nrel_main_idtf:
+   [Аметист] (*<- lang_ru;;*);
+=> nrel_moss_solidity:
+   6 (*<- concept_jewels_solidity;;*);;
+
+

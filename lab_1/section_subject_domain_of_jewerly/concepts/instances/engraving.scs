@@ -1,0 +1,17 @@
+laser_engraving
+<- concept_engraving;
+=> nrel_main_idtf:
+   [Гравировка лазером] (*<- lang_ru;;*);
+=> nrel_note:
+   [Гравировка лазером является одним из вариантов гравировки.] (*<- lang_ru;;*);
+=> nrel_founded_date:
+   [1854] (*<- lang_ru;;*);;
+
+acid_engraving
+<- concept_engraving;
+=> nrel_main_idtf:
+   [Гравировка травлением] (*<- lang_ru;;*);
+=> nrel_note:
+   [Гравировка травлением является одним из вариантов гравировки при помощи кислоты.] (*<- lang_ru;;*);
+=> nrel_founded_date:
+   [1734] (*<- lang_ru;;*);;

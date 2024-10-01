@@ -1,0 +1,32 @@
+rome_design
+<- concept_jewels_culture;
+=> nrel_main_idtf:
+   [Римский дизайн украшений] (*<- lang_ru;;*);
+=> nrel_note:
+   [Является одним из первых видов украшений в Европейской истории.] (*<- lang_ru;;*);
+=> nrel_creation_date:
+   [27 г. до н.э.] (*<- lang_ru;;*);
+=> nrel_country_origin:
+   [Римская империя] (*<- lang_ru;;*);;
+
+middle_ages_design
+<- concept_jewels_culture;
+=> nrel_main_idtf:
+   [Средневековый дизайн украшений] (*<- lang_ru;;*);
+=> nrel_note:
+   [Является одним из самых обширных видов украшенийб,большинство стандартных украшений появилось именно здесь.] (*<- lang_ru;;*);
+=> nrel_creation_date:
+   [500] (*<- lang_ru;;*);
+=> nrel_country_origin:
+   [Европа] (*<- lang_ru;;*);;
+
+modern_design
+<- concept_jewels_culture;
+=> nrel_main_idtf:
+   [Современный дизайн украшений] (*<- lang_ru;;*);
+=> nrel_note:
+   [К данному отрезку относятся украшения из необычных материалов и современных концепций.] (*<- lang_ru;;*);
+=> nrel_creation_date:
+   [1900] (*<- lang_ru;;*);
+=> nrel_country_origin:
+   [Современные страны] (*<- lang_ru;;*);;

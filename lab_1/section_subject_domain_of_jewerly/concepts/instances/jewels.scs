@@ -1,0 +1,10 @@
+necklace
+<- concept_jewels;
+=> nrel_main_idtf:
+   [Ожерелье] (*<- lang_ru;;*);;
+
+
+earrings
+<- concept_jewels;
+=> nrel_main_idtf:
+   [Серьги] (*<- lang_ru;;*);;

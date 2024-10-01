@@ -23,9 +23,6 @@ concept_jewels_design
          concept_jewels_culture;
          concept_jewels
       };;
-  *);
+  *);;
 
-<= nrel_inclusion:
-   concept_visual_artist;
-   concept_sculptor;
-   concept_digital_artist;;
+

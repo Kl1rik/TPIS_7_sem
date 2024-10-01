@@ -9,5 +9,8 @@ concept_jewerly_make
     (* <- lang_ru;; *);
     
 => nrel_inclusion:
-    subject_domain_of_jewerly;;
+    subject_domain_of_jewerly;
+
+<= nrel_inclusion:
+    concept_engraving;;
 

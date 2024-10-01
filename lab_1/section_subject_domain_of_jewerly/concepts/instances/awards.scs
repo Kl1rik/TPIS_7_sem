@@ -1,8 +1,0 @@
-
-venice_biennale_award
-<- concept_award;
-=> nrel_main_idtf:
-   [Премия Венецианской биеннале] (*<- lang_ru;;*);
-<= nrel_receives_award:
-    woman_with_roses (*<- concept_painting;;*);;
-
