@@ -62,7 +62,7 @@ section_subject_domain_of_jewerly = [*
     nrel_jewel_dig_type;  /* Отношение: место, где произведение выставлялось */
     nrel_jewel_make;
     nrel_moss_solidity;
-    nrel_country_otigin; /* Отношение: произведение создано определенным художником */
+    nrel_country_origin; /* Отношение: произведение создано определенным художником */
     nrel_price;;  /* Отношение: произведение собрано определенной галереей */
 
 *];;

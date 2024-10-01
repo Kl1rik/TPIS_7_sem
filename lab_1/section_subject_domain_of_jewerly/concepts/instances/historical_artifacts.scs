@@ -2,7 +2,7 @@ rome_diadema
 <- concept_historical_artifacts;
 => nrel_main_idtf:
    [Римская диадема] (*<- lang_ru;;*);
-=> nrel_country_otigin:
+=> nrel_country_origin:
    [Римская империя] (*<- lang_ru;;*);
 => nrel_jewel_type:
    concept_jewels;
@@ -15,7 +15,7 @@ knight_medals
 <- concept_historical_artifacts;
 => nrel_main_idtf:
    [Рыцарский орден] (*<- lang_ru;;*);
-=> nrel_country_otigin:
+=> nrel_country_origin:
    [Средневековая европа] (*<- lang_ru;;*);
 => nrel_jewel_type:
    concept_jewels;

@@ -6,7 +6,7 @@ ruby
 => nrel_jewel_type:
    concept_gem_stones (*<- concept_jewels_type;;*);
 
-=> nrel_country_otigin:
+=> nrel_country_origin:
    [Мозамбик] (*<- concept_country;;*);
 
 => nrel_moss_solidity:
@@ -20,7 +20,7 @@ emerald
 => nrel_jewel_type:
    concept_gem_stones (*<- concept_jewels_type;;*);
 
-=> nrel_country_otigin:
+=> nrel_country_origin:
    [Замбия] (*<- concept_country;;*);
 
 => nrel_moss_solidity:

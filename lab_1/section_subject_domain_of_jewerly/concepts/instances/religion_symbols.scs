@@ -4,7 +4,7 @@ cross
    [Религиозный крест] (*<- lang_ru;;*);
 => nrel_creation_date:
    [130-100 до н.э.] (*<- lang_ru;;*);
-=> nrel_country_otigin:
+=> nrel_country_origin:
    [Византия] (*<- lang_ru;;*);
 => nrel_jewel_type:
    concept_jewels;
@@ -19,7 +19,7 @@ mitra
    [1504] (*<- lang_ru;;*);
 => nrel_jewel_type:
    concept_jewels;
-=> nrel_country_otigin:
+=> nrel_country_origin:
    [Иерусалим] (*<- lang_ru;;*);
 => nrel_jewel_culture_meaning:
    [Религиозный атрибут] (*<- lang_ru;;*);;

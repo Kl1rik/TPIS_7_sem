@@ -19,11 +19,6 @@ concept_religion_symbols
                [Религиозные символы играют важную роль в различных верованиях, представляя собой визуальные образы, которые помогают людям выражать и понимать духовные концепции.]
                (* <- lang_ru;; *);;
          *);;
-      <= nrel_using_constants: {
-         concept_cultural_institution;
-         concept_exhibition;
-         concept_artwork
-      };;
   *);
 
 => nrel_inclusion:

@@ -12,7 +12,7 @@ crown
 sceptre
 <- concept_royal_regalia;
 => nrel_main_idtf:
-   [Скипет] (*<- lang_ru;;*);
+   [Скипетр] (*<- lang_ru;;*);
 => nrel_creation_date:
    [1637] (*<- lang_ru;;*);
 => nrel_jewel_type:
