@@ -1,0 +1,25 @@
+rome_diadema
+<- concept_historical_artifacts;
+=> nrel_main_idtf:
+   [Римская диадема] (*<- lang_ru;;*);
+=> nrel_country_otigin:
+   [Римская империя] (*<- lang_ru;;*);
+=> nrel_jewel_type:
+   concept_jewels;
+=> nrel_design_type:
+   [Римское традиционное украшение] (*<- concept_jewels_design;;*);
+=> nrel_jewel_culture_meaning:
+   [Исторический артефакт] (*<- lang_ru;;*);;
+
+knight_medals
+<- concept_historical_artifacts;
+=> nrel_main_idtf:
+   [Рыцарский орден] (*<- lang_ru;;*);
+=> nrel_country_otigin:
+   [Средневековая европа] (*<- lang_ru;;*);
+=> nrel_jewel_type:
+   concept_jewels;
+=> nrel_design_type:
+   [Средневековое традиционное украшение] (*<- concept_jewels_design;;*);
+=> nrel_jewel_culture_meaning:
+   [Исторический артефакт] (*<- lang_ru;;*);;

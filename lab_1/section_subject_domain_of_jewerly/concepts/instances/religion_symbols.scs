@@ -1,0 +1,25 @@
+cross
+<- concept_religion_symbols;
+=> nrel_main_idtf:
+   [Религиозный крест] (*<- lang_ru;;*);
+=> nrel_creation_date:
+   [130-100 до н.э.] (*<- lang_ru;;*);
+=> nrel_country_otigin:
+   [Византия] (*<- lang_ru;;*);
+=> nrel_jewel_type:
+   concept_jewels;
+=> nrel_jewel_culture_meaning:
+   [Религиозный атрибут] (*<- lang_ru;;*);;
+
+mitra
+<- concept_religion_symbols;
+=> nrel_main_idtf:
+   [Митра] (*<- lang_ru;;*);
+=> nrel_creation_date:
+   [1504] (*<- lang_ru;;*);
+=> nrel_jewel_type:
+   concept_jewels;
+=> nrel_country_otigin:
+   [Иерусалим] (*<- lang_ru;;*);
+=> nrel_jewel_culture_meaning:
+   [Религиозный атрибут] (*<- lang_ru;;*);;

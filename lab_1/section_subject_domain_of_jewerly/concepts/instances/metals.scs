@@ -4,7 +4,7 @@ aurum
    [Золото] (*<- lang_ru;;*);
 
 => nrel_jewel_type:
-   metal (*<- concept_jewels_type;;*);;
+   concept_precious_metals (*<- concept_jewels_type;;*);;
 
 platina
 <- concept_artist;
@@ -12,4 +12,4 @@ platina
    [Платина] (*<- lang_ru;;*);
 
 => nrel_jewel_type:
-   metal (*<- concept_jewels_type;;*);;
+   concept_precious_metals (*<- concept_jewels_type;;*);;

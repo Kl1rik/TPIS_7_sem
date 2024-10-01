@@ -1,4 +1,4 @@
-nrel_receives_award
+nrel_moss_solidity
 <- sc_node_norole_relation;
 <- relation;
 <- binary_relation;
@@ -8,17 +8,17 @@ nrel_receives_award
 <- antitransitive_relation;
 
 => nrel_main_idtf:
-   [получает награду]
+   [твердость]
    (* <- lang_ru;; *);
    
-=> nrel_first_domain: concept_artwork;
-=> nrel_second_domain: concept_award;
+=> nrel_first_domain: concept_gem_stones;
+=> nrel_second_domain: concept_jewels_solidity;
 => nrel_definitional_domain:
    ...
    (*
         <= nrel_combination: {
-            concept_artwork;
-            concept_award
+            concept_gem_stones;
+            concept_jewels_solidity
         };;
    *);
    
@@ -26,18 +26,18 @@ nrel_receives_award
    ...
    (*
       => nrel_main_idtf:
-          [Опр. (получает награду)]
+          [Опр. (твердость)]
           (* <- lang_ru;; *);;
       <- definition;;
       <= nrel_sc_text_translation:
            ...
            (*
               -> rrel_example:
-               [Произведение искусства может получать награды на различных конкурсах и фестивалях искусства.]
+               [Твердость - бинарное отношение, связывающее произведение драгоценные камни с их  твердостью.]
                (* <- lang_ru;; *);;
            *);;
       <= nrel_using_constants: {
-             concept_artwork;
-             concept_award
+            concept_gem_stones;
+            concept_jewels_solidity
         };;
   *);;

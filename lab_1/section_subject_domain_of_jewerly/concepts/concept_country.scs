@@ -1,0 +1,28 @@
+concept_country
+<- sc_node_class;  /* Определяет, что это класс объектов */
+<- class;  /* Указывает, что это класс */
+=> nrel_main_idtf:
+    [Страна происхождения]
+    (* <- lang_ru;; *);
+=> nrel_note:
+    [Страна происхождения драгоценностей.]
+    (* <- lang_ru;; *);
+    
+<= nrel_inclusion:
+    concept_precious_metals
+    (* => nrel_main_idtf:
+        [Драгоценные металлы]
+        (* <- lang_ru;; *);;
+    *);
+<= nrel_inclusion:
+    concept_jewels
+    (* => nrel_main_idtf:
+        [Ювелирные изделия]
+        (* <- lang_ru;; *);;
+    *);
+<= nrel_inclusion:
+    concept_gem_stones
+    (* => nrel_main_idtf:
+        [Драгоценные камни]
+        (* <- lang_ru;; *);;
+    *);;

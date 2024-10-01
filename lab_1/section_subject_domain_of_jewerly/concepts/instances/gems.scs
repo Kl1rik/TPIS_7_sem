@@ -4,7 +4,13 @@ ruby
    [Рубин] (*<- lang_ru;;*);
 
 => nrel_jewel_type:
-   corund (*<- concept_jewels_type;;*);;
+   concept_gem_stones (*<- concept_jewels_type;;*);;
+
+=> nrel_country_otigin:
+   [Мозамбик] (*<- concept_country;;*);;
+
+=> nrel_moss_solidity:
+   9 (*<- concept_jewels_solidity;;*);;
 
 emerald
 <- concept_gem_stones;
@@ -12,4 +18,10 @@ emerald
    [Изумруд] (*<- lang_ru;;*);
 
 => nrel_jewel_type:
-   pyrite (*<- concept_jewels_type;;*);;
+   concept_gem_stones (*<- concept_jewels_type;;*);;
+
+=> nrel_country_otigin:
+   [Замбия] (*<- concept_country;;*);;
+
+=> nrel_moss_solidity:
+   8 (*<- concept_jewels_solidity;;*);;
