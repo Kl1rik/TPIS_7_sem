@@ -101,19 +101,9 @@ concept_artist;  /* Художник как класс объектов иссл
 
 
     nrel_creation_date;  /* Отношение: дата создания произведения искусства */
-    nrel_style;  /* Отношение: стиль, к которому относится произведение */
-    nrel_influence;  /* Отношение: влияние, оказанное на произведение искусства */
-    nrel_exhibited_at;  /* Отношение: место, где произведение выставлялось */
-    nrel_created_by;  /* Отношение: произведение создано определенным художником */
-    nrel_collected_by;  /* Отношение: произведение собрано определенной галереей */
-    nrel_part_of_exhibition; /* Отношение: произведение является частью выставки */
-    nrel_creation_date;
-    nrel_creates_sculpture;
-    nrel_exhibited_in_museum;
-    nrel_influence;
-    nrel_part_of_exhibition;
-    nrel_receives_award;
-    nrel_represented_in_collection;
-    nrel_restored_by;
-    nrel_takes_photograph;
-    nrel_uses_digital_tools;;
+    nrel_design_type;  /* Отношение: стиль, к которому относится произведение */
+    nrel_jewel_culture_meaning;  /* Отношение: влияние, оказанное на произведение искусства */
+    nrel_jewel_dig_type;  /* Отношение: место, где произведение выставлялось */
+    nrel_jewel_make;  /* Отношение: произведение создано определенным художником */
+    nrel_price;;  /* Отношение: произведение собрано определенной галереей */
+    
