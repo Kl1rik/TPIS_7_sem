@@ -1,12 +1,12 @@
 nrel_jewel_type
-<- sc_node_norole_relation;  /* Это неролевое отношение */
-<- relation;  /* Это отношение */
-<- binary_relation;  /* Бинарное отношение, связывающее произведение искусства с галереей, которая его собрала */
-<- oriented_relation;  /* Ориентированное отношение: галерея собирает произведение, а не наоборот */
-<- antireflexive_relation;  /* Произведение не может быть собрано само собой */
-<- asymmetric_relation;  /* Если галерея собрала произведение, то произведение не может собрать галерею */
+<- sc_node_norole_relation;  
+<- relation;  
+<- binary_relation;  
+<- oriented_relation; 
+<- antireflexive_relation;  
+<- asymmetric_relation;  
 => nrel_main_idtf:
    [тип драгоценности]
    (* <- lang_ru;; *);
-=> nrel_first_domain: concept_ref_jewel;  /* Первое множество — произведения искусства */
-=> nrel_second_domain: concept_jewels_type;;  /* Второе множество — галереи */
+=> nrel_first_domain: concept_ref_jewel;
+=> nrel_second_domain: concept_jewels_type;;  

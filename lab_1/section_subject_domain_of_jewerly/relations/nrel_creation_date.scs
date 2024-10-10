@@ -1,11 +1,11 @@
 nrel_creation_date
-<- sc_node_norole_relation;  /* Это неролевое отношение */
-<- relation;  /* Это отношение */
-<- binary_relation;  /* Бинарное отношение, связывающее произведение искусства с датой его создания */
-<- oriented_relation;  /* Ориентированное отношение: произведение создается в определённую дату, а не наоборот */
-<- antireflexive_relation;  /* Дата создания не может быть связана с самой собой */
+<- sc_node_norole_relation;  
+<- relation;  
+<- binary_relation; 
+<- oriented_relation;  
+<- antireflexive_relation;  
 => nrel_main_idtf:
    [дата создания]
    (* <- lang_ru;; *);
-=> nrel_first_domain: concept_ref_jewel;  /* Первое множество — произведения искусства */
-=> nrel_second_domain: concept_creation_date;;  /* Второе множество — даты создания */
+=> nrel_first_domain: concept_ref_jewel;  
+=> nrel_second_domain: concept_creation_date;;  

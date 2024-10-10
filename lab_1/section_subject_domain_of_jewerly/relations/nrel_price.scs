@@ -1,12 +1,12 @@
 nrel_price
-<- sc_node_norole_relation;  /* Это неролевое отношение */
-<- relation;  /* Это отношение */
-<- binary_relation;  /* Бинарное отношение, связывающее произведение искусства с выставкой, на которой оно представлено */
-<- oriented_relation;  /* Ориентированное отношение: произведение является частью выставки, а не наоборот */
-<- antireflexive_relation;  /* Произведение не может быть частью самого себя */
-<- asymmetric_relation;  /* Если произведение является частью выставки, то выставка не может быть частью произведения */
+<- sc_node_norole_relation;  
+<- relation;  
+<- binary_relation;  
+<- oriented_relation;  
+<- antireflexive_relation; 
+<- asymmetric_relation;  
 => nrel_main_idtf:
    [цена]
    (* <- lang_ru;; *);
-=> nrel_first_domain: concept_ref_jewel;  /* Первое множество — произведения искусства */
-=> nrel_second_domain: concept_price;;  /* Второе множество — выставки */
+=> nrel_first_domain: concept_ref_jewel;  
+=> nrel_second_domain: concept_price;;  
