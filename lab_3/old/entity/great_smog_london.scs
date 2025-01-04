@@ -1,0 +1,26 @@
+great_smog_london
+<- concept_environmental_problems;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [Great Smog of London]
+    (* <- lang_en;; *);
+=> nrel_idtf:
+    [Смог в Лондоне]
+    (* <- lang_ru;; *);
+=> nrel_note:
+   [Смог в Лондоне — это экологическое явление, произошедшее в декабре 1952 года, охватившее столицу Великобритании густым туманом, содержащим загрязняющие вещества, что привело к значительным человеческим жертвам и изменениям в экологическом законодательстве.]
+   (* <- lang_ru;; *);
+=> nrel_definition:
+   [The Great Smog of London was an environmental phenomenon in December 1952 that enveloped the British capital in thick fog containing pollutants, causing significant casualties and leading to changes in environmental legislation.]
+   (* <- lang_en;; *);
+   
+   
+=> nrel_date:
+[дата лондон]
+(* <- lang_ru;; *);
+=> nrel_location:
+[место лондон]
+(* <- lang_ru;; *);
+=> nrel_consequences:
+[последствия лондон]
+(* <- lang_ru;; *);;

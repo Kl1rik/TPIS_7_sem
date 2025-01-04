@@ -1,0 +1,25 @@
+chernobyl_disaster
+<- concept_environmental_problems;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [Chernobyl disaster]
+    (* <- lang_en;; *);
+=> nrel_idtf:
+    [Чернобыльская катастрофа]
+    (* <- lang_ru;; *);
+=> nrel_note:
+   [Чернобыльская катастрофа — это авария на Чернобыльской АЭС, произошедшая 26 апреля 1986 года, вызвавшая серьёзные экологические и гуманитарные последствия.]
+   (* <- lang_ru;; *);
+=> nrel_definition:
+   [The Chernobyl disaster refers to the accident at the Chernobyl Nuclear Power Plant on April 26, 1986, causing severe environmental and humanitarian consequences.]
+   (* <- lang_en;; *);
+   
+=> nrel_date:
+[дата чернобыль]
+(* <- lang_ru;; *);
+=> nrel_location:
+[ место чернобыль]
+(* <- lang_ru;; *);
+=> nrel_consequences:
+[последствия чернобыль]
+(* <- lang_ru;; *);;

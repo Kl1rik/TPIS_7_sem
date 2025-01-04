@@ -1,0 +1,32 @@
+australian_bushfires
+<- concept_environmental_problems;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [Australian bushfires]
+    (* <- lang_en;; *);
+=> nrel_idtf:
+    [Пожары в Австралии]
+    (* <- lang_ru;; *);
+=> nrel_note:
+   [Пожары в Австралии — это частые лесные пожары, которые поражают значительные территории, приводя к разрушению экосистем, гибели животных и людей, а также к экономическим потерям.]
+   (* <- lang_ru;; *);
+=> nrel_definition:
+   [Australian bushfires are frequent wildfires that affect large areas, resulting in ecosystem destruction, loss of animal and human lives, and economic damage.]
+   (* <- lang_en;; *);
+
+=> nrel_date:
+[дата австралийских пожаров]
+(* <- lang_ru;; *);
+=> nrel_location:
+[ место австралийских пожаров]
+(* <- lang_ru;; *);
+=> nrel_consequences:
+[последствия австралийских пожаров]
+(* <- lang_ru;; *);;
+
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+concept_message_about_date
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [Сообщение о времени]
+    (* <- lang_ru;; *);
+=> nrel_wit_ai_idtf:
+    [Messege_about_date];
+<- rrel_key_sc_element:
+    ...
+    (*
+    => nrel_main_idtf:
+       [Опр. (Сообщение о времени)]
+       (* <- lang_ru;; *);;
+    <- definition;;
+    <= nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+           [Сообщение о времени - это сообщение о времени в котором произошло некое событие.]
+           (* <- lang_ru;; *);;
+        *);;
+    <= nrel_using_constants:
+        {
+            concept_environmental_problems
+        };;
+    *);;
+    
+concept_intent_possible_class
+-> concept_message_about_date;;

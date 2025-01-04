@@ -1,0 +1,27 @@
+terror0911
+<- concept_education_cultural_challenges;
+<- concept_environmental_problems;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [September 11 attacks]
+    (* <- lang_en;; *);
+=> nrel_idtf:
+    [Теракт 11 сентября]
+    (* <- lang_ru;; *);
+=> nrel_note:
+   [Теракт 11 сентября — это серия скоординированных террористических атак, совершённых 11 сентября 2001 года в США, что привело к значительным человеческим жертвам и изменению глобальной политики безопасности.]
+   (* <- lang_ru;; *);
+=> nrel_definition:
+   [The September 11 attacks refer to a series of coordinated terrorist attacks on September 11, 2001, in the United States, resulting in significant loss of life and changes in global security policies.]
+   (* <- lang_en;; *);
+   
+   
+=> nrel_date:
+[дата 911]
+(* <- lang_ru;; *);
+=> nrel_location:
+[место 911]
+(* <- lang_ru;; *);
+=> nrel_consequences:
+[последствия 911]
+(* <- lang_ru;; *);;

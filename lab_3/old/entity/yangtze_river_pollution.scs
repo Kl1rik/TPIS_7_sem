@@ -1,0 +1,27 @@
+yangtze_river_pollution
+<- concept_water_pollution;
+<- concept_environmental_problems;
+<- concept_wit_entity;
+=> nrel_main_idtf:
+    [Yangtze River pollution]
+    (* <- lang_en;; *);
+=> nrel_idtf:
+    [Загрязнение реки Янцзы]
+    (* <- lang_ru;; *);
+=> nrel_note:
+   [Загрязнение реки Янцзы — это экологическая проблема, вызванная сбросом промышленных отходов и загрязнителей в реку Янцзы, приводящая к ущербу экосистеме и затрудняющая использование воды для питья и сельского хозяйства.]
+   (* <- lang_ru;; *);
+=> nrel_definition:
+   [Yangtze River pollution is an environmental issue caused by industrial waste and pollutants in the Yangtze River, harming the ecosystem and complicating the use of water for drinking and agriculture.]
+   (* <- lang_en;; *);
+   
+   
+=> nrel_date:
+[дата река]
+(* <- lang_ru;; *);
+=> nrel_location:
+[место река]
+(* <- lang_ru;; *);
+=> nrel_consequences:
+[последствия река]
+(* <- lang_ru;; *);;
